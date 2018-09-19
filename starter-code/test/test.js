@@ -38,6 +38,7 @@ describe('SortedList', function() {
     });
 
     it('should return an OutOfBounds exception if there is no element in that position', function() {
+      
       try {
         sl.get(20);
       } catch (e) {
